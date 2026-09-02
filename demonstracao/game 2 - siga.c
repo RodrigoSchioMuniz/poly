@@ -39,7 +39,7 @@ int main(){
 	tamanho=1;
 	mexidas=1;
 	sel=fila[0];
-	setvideomode();
+	setvideomode(); //inicia modo grafico (320x200)
 	while(!keystate(KEY_ESCAPE)){
 		if(tamanho==mexidas&&exibicao==-1){
 			int iguais=1;

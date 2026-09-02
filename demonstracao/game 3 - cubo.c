@@ -87,7 +87,7 @@ void main(){
 	for(int x=36;x<45;x++)cubo[x]=73;
 	for(int x=45;x<54;x++)cubo[x]=49;
 
-	setvideomode();
+	setvideomode(); //inicia modo grafico (320x200)
 
 	while(!keystate(KEY_ESCAPE)){
 			//if(keystate(KEY_UP)&&keystate(KEY_SHIFT)&&keystate(KEY_CONTROL))howHigh=5;

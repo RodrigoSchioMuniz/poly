@@ -282,25 +282,25 @@ void fillpoly(int* points_xy,int count){
 	}
 }
 
-void traco1(int x,int y){line(x+1,y+0,x+3,y+0);}
-void traco2(int x,int y){line(x+1,y+4,x+3,y+4);}
-void traco3(int x,int y){line(x+1,y+8,x+3,y+8);}
-void traco4(int x,int y){line(x+0,y+1,x+0,y+3);}
-void traco5(int x,int y){line(x+4,y+1,x+4,y+3);}
-void traco6(int x,int y){line(x+0,y+5,x+0,y+7);}
-void traco7(int x,int y){line(x+4,y+5,x+4,y+7);}
+void glyph1(int x,int y){line(x+1,y+0,x+3,y+0);}
+void glyph2(int x,int y){line(x+1,y+4,x+3,y+4);}
+void glyph3(int x,int y){line(x+1,y+8,x+3,y+8);}
+void glyph4(int x,int y){line(x+0,y+1,x+0,y+3);}
+void glyph5(int x,int y){line(x+4,y+1,x+4,y+3);}
+void glyph6(int x,int y){line(x+0,y+5,x+0,y+7);}
+void glyph7(int x,int y){line(x+4,y+5,x+4,y+7);}
 
 void algarismo(int n,int x,int y){
-	if(n==0){traco1(x,y);traco3(x,y);traco4(x,y);traco5(x,y);traco6(x,y);traco7(x,y);}
-	if(n==1){traco5(x,y);traco7(x,y);}
-	if(n==2){traco1(x,y);traco2(x,y);traco3(x,y);traco5(x,y);traco6(x,y);}
-	if(n==3){traco1(x,y);traco2(x,y);traco3(x,y);traco5(x,y);traco7(x,y);}
-	if(n==4){traco2(x,y);traco4(x,y);traco5(x,y);traco7(x,y);}
-	if(n==5){traco1(x,y);traco2(x,y);traco3(x,y);traco4(x,y);traco7(x,y);}
-	if(n==6){traco1(x,y);traco2(x,y);traco3(x,y);traco4(x,y);traco6(x,y);traco7(x,y);}
-	if(n==7){traco1(x,y);traco5(x,y);traco7(x,y);}
-	if(n==8){traco1(x,y);traco2(x,y);traco3(x,y);traco4(x,y);traco5(x,y);traco6(x,y);traco7(x,y);}
-	if(n==9){traco1(x,y);traco2(x,y);traco3(x,y);traco4(x,y);traco5(x,y);traco7(x,y);}
+	if(n==0){glyph1(x,y);glyph3(x,y);glyph4(x,y);glyph5(x,y);glyph6(x,y);glyph7(x,y);}
+	if(n==1){glyph5(x,y);glyph7(x,y);}
+	if(n==2){glyph1(x,y);glyph2(x,y);glyph3(x,y);glyph5(x,y);glyph6(x,y);}
+	if(n==3){glyph1(x,y);glyph2(x,y);glyph3(x,y);glyph5(x,y);glyph7(x,y);}
+	if(n==4){glyph2(x,y);glyph4(x,y);glyph5(x,y);glyph7(x,y);}
+	if(n==5){glyph1(x,y);glyph2(x,y);glyph3(x,y);glyph4(x,y);glyph7(x,y);}
+	if(n==6){glyph1(x,y);glyph2(x,y);glyph3(x,y);glyph4(x,y);glyph6(x,y);glyph7(x,y);}
+	if(n==7){glyph1(x,y);glyph5(x,y);glyph7(x,y);}
+	if(n==8){glyph1(x,y);glyph2(x,y);glyph3(x,y);glyph4(x,y);glyph5(x,y);glyph6(x,y);glyph7(x,y);}
+	if(n==9){glyph1(x,y);glyph2(x,y);glyph3(x,y);glyph4(x,y);glyph5(x,y);glyph7(x,y);}
 }
 
 void blitInt(int n,int x,int y){

@@ -10,7 +10,7 @@ void init(){ //função que setta valores para inicio do jogo
 }
 
 int main(){
-	setvideomode(); //inicia modo grafico
+	setvideomode(); //inicia modo grafico (320x200)
 	init(); //chama função que inicia variaveis
 
 	while(!keystate(KEY_ESCAPE)){ //o jogo sempre continua while/enquanto o user não pressiona a tecla ESC/escape

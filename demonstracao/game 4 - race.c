@@ -23,7 +23,7 @@ void init(){
 
 int main(){
 	init(); // Inicializa o carro
-	setvideomode(); // Configura o modo de vídeo gráfico
+	setvideomode(); //inicia modo grafico (320x200)
 
 	while(!keystate(KEY_ESCAPE)){ // loop principal do jogo - executa até pressionar ESC
 		setcolor(0);

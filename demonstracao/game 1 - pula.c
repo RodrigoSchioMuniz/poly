@@ -15,7 +15,7 @@ void inicializaJogo() { //função que reseta as variavei para o jogo começar
 }
 
 int main() {  //função principal
-	setvideomode(); //modo gráfico
+	setvideomode(); //inicia modo grafico (320x200)
 
 	inicializaJogo(); //chama a função que reseta as variaveis para o jogo começar
 
